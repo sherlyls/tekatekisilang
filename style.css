@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+p {
+    text-align: center;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    grid-template-rows: repeat(13, 1fr);
+    width: 400px;
+    height: auto;
+    margin: 40px auto;
+    border: 1px solid black;
+}
+
+#container>div {
+    border: 1px solid black;
+    padding: 2px;
+}
+
+#container>div>p {
+    text-align: center;
+}
+
+.box7,
+.box8,
+.box10,
+.box12,
+.box15,
+.box16,
+.box18,
+.box28,
+.box33,
+.box34,
+.box36,
+.box38,
+.box46,
+.box54,
+.box58,
+.box60,
+.box70,
+.box76,
+.box78,
+.box79,
+.box81,
+.box82,
+.box88,
+.box89,
+.box91,
+.box92,
+.box94,
+.box100,
+.box110,
+.box112,
+.box116,
+.box125,
+.box132,
+.box134,
+.box136,
+.box137,
+.box142,
+.box152,
+.box154,
+.box155,
+.box158,
+.box160,
+.box162,
+.box163 {
+    background-color: black;
+    color: black;
+}
+
+.text {
+    font-size: 50%;
+}
+
+.notext {
+    color: white;
+    font-size: 50%;
+}
+
+.empty {
+    color: black;
+}
